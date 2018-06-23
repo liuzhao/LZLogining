@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LZLogining_Example' do
+  pod 'LZLogining', :path => '../'
+
+  target 'LZLogining_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
